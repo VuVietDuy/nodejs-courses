@@ -1,8 +1,16 @@
 
----install nodemon---
+---Nodemon---
 
 lắng nghe sự thay đổi và reload lại mà không cần chạy lại server
 để debug, tìm lỗi để khắc phục nhanh nhất
 lưu file không cần chạy lại server
 
 npm install nodemon
+
+---Morgan---
+
+---Template engine (handlebars)---
+
+search express-handlebars
+
+npm install express-handlebars

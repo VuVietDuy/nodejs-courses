@@ -9,8 +9,70 @@ npm install nodemon
 
 ---Morgan---
 
+
 ---Template engine (handlebars)---
 
 search express-handlebars
-
 npm install express-handlebars
+
+
+---Basic Routing---
+Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+Each route can have one or more handler functions, which are executed when the route is matched.
+Route definition takes the following structure:
+
+app.METHOD(PATH, HANDLER)
+app is an instance of express.
+METHOD is an HTTP request method, in lowercase.
+PATH is a path on the server.
+HANDLER is the function executed when the route is matched.
+
+
+---------------------------------------------------------------
+HTTP methods
+
+1. get
+
+2. post
+
+3. put 
+
+
+--------------------------------------------------------------------------------------------
+Mô hình MVC
+
+1. Khái niệm
+- Mô hình MVC (Model-View-Controller) là một kiến trúc phần mềm phổ biến được sử dụng trogn phát triển ứng dụng.
+Nó chia ứng dụng thành ba phần chính 
+  + Model: Đại diện cho dữ liệu và quy tắc xử lý dữ liệu. Model là nơi thực hiện các thao tác đọc, ghi và cập nhật dữ liệu.
+  nó có trách nhiệm bảo vệ tính toàn vẹn và đảm bảo rằng dữ liệu tuân theo các quy tắc xử lý được xác định. Model không trực tiếp 
+  tương tác với người dùng
+  + View: Đại diện cho người dùng. View là nói hiện thị thôngtin và tương tác với người dùng. Nó nhận dữ kiệu từ Model và hiện thị
+  dữ liệu một cách thích hợp cho người dùng . View không thực hiện xử lý dữ liệu, chỉ tập trung vào việc hiển thi và thu thập
+  thông tin từ người dùng
+  + Controller: là khối trung gian giữa Model và View. Controller nhận các sự kiện và yêu cầu từ người dùng thông qua View, xử lý
+  sự kiện đó và cập nhật dữ liệu hoặc gọi các hành động tương ứng trên Model. Controller làm nhiệm vụ xử lsy các luồng logic, diều hướng
+  các yếu cầu và quản lý trạng thái của ứng dụng
+
+2. Mô hình client - server
+
+
+
+------------------------------------------------------------------------------------------
+Prettier
+
+4 dấu cách
+dùng nháy đơn khi lm việc với chuỗi
+một dòng tối đa 80 kí tự
+có dấu phảy ',' ở phần tử cuối khi dùng array, object
+
+-----------------------------------------------------------------------------------------
+MongoDB
+
+https://www.npmjs.com/package/mongoose
+
+1. Connect 
+2. Difining a Model
+
+-----------------------------------------------------------------------------------------
+[CRUD] Read from DB
